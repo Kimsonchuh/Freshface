@@ -12,7 +12,7 @@ public abstract class StartUpActivity extends BaseActivity implements Animation.
 
     @Override
     public void setContentView(int layoutResID) {
-        setContentView(layoutResID, 0.9f, 1f, 2000);
+        setContentView(layoutResID, 0.9f, 1f, 3000);
     }
 
     public void setContentView(int layoutResID, float fromAlpha, float toAlpha, long durationMillis) {

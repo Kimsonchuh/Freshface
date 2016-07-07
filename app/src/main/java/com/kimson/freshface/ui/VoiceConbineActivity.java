@@ -55,7 +55,7 @@ public class VoiceConbineActivity extends BaseActivity implements View.OnClickLi
     private static final String ENGLISH_TEXT_MODEL_NAME = "bd_etts_text_en.dat";
 
     private static final int PRINT = 0;
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "VoiceConbineActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

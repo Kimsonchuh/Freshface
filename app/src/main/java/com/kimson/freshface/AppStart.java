@@ -5,6 +5,7 @@ import android.view.animation.Animation;
 
 import com.isnc.facesdk.SuperID;
 import com.kimson.freshface.ui.HomeActivity;
+import com.kimson.freshface.ui.LoginActivity;
 import com.kimson.freshface.util.ActivityUtils;
 import com.kimson.library.ui.StartUpActivity;
 
@@ -12,7 +13,6 @@ import com.kimson.library.ui.StartUpActivity;
  * Created by zhujianheng on 7/7/16.
  */
 public class AppStart extends StartUpActivity {
-    private final boolean isFirstStart = AppConfig.isFirstStart();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class AppStart extends StartUpActivity {
 
     @Override
     public void onAnimationEnd(Animation animation) {
-        ActivityUtils.goHome(this, HomeActivity.class);
+        ActivityUtils.goHome(this, LoginActivity.class);
     }
 
 }

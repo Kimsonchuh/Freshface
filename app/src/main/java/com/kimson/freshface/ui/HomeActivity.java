@@ -94,7 +94,7 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
-
+            ActivityUtils.startActivity(this, ChatActivity.class);
         } else if (id == R.id.nav_share) {
             ActivityUtils.startActivity(this, VoiceConbineActivity.class);
         } else if (id == R.id.nav_send) {
